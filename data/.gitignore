@@ -1,0 +1,18 @@
+# Large/raw datasets
+raw/
+processed/
+
+*.zip
+*.gz
+*.parquet
+
+# Generated datasets
+*_combined.csv
+*_processed.csv
+
+# Temporary files
+tmp/
+temp/
+
+*.log
+.DS_Store

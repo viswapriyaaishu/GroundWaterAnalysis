@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+
+.env
+
+.ipynb_checkpoints/
+
+*.log
+
+.pytest_cache/
+.mypy_cache/
+
+.DS_Store
+.vscode/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Large generated outputs
+models/
+artifacts/
+outputs/
